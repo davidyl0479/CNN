@@ -1,10 +1,34 @@
-torch>=2.0.0
-torchvision>=0.15.0
-numpy>=1.21.0
-matplotlib>=3.5.0
-jupyter>=1.0.0
-scikit-learn>=1.0.0
-pillow>=8.0.0
-tqdm>=4.64.0
-seaborn>=0.11.0
+# ─────────── Core: needed to run the project ───────────
+# pinned to versions that work with Python 3.10 / 3.11
+torch==2.2.2           # CPU build; replace with +cu121 for GPU
+torchvision==0.17.2
+torchaudio==2.2.2      # optional but convenient
+numpy>=1.23            # 3.12-compatible, safe for 3.10/3.11
+pandas>=1.5
+scipy>=1.9
+scikit-learn>=1.4
+matplotlib>=3.7
+seaborn>=0.13
+tqdm>=4.66
+pillow>=10.3
+opencv-python>=4.10     # image I/O & transforms
+scikit-image>=0.23
+albumentations>=1.4     # powerful aug men tation library
+# Jupyter / notebooks
+jupyterlab>=4.2
+ipykernel>=6.29
+ipywidgets>=8.1
+tensorboard>=2.16       # nice for training curves
+# CLI & config
+typer[all]>=0.12
+hydra-core>=1.3
+pyyaml>=6.0
+
+# ───────────  Dev / lint / formatting (optional) ───────────
+black>=24.4
+isort>=5.13
+ruff>=0.4
+pre-commit>=3.7
+
+# ───────────  Install your own package in editable mode ───
 -e .
