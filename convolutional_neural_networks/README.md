@@ -4,6 +4,35 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
+A learning project focused on Convolutional Neural Networks for Face and Object Detection, built using industry-standard project structure.
+
+## 🎯 Project Goals
+- Learn CNN fundamentals through hands-on implementation
+- Practice professional ML project organization
+- Build face and object detection models
+- Document the learning journey
+
+## 🚀 Quick Start
+
+### Setup Environment
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Start with the learning notebook
+jupyter notebook notebooks/test1.ipynb
+```
+
+### Current Progress
+- [ ] Data collection and exploration
+- [ ] Basic CNN implementation
+- [ ] Face detection model
+- [ ] Object detection model
+- [ ] Model evaluation and comparison
+
+## 📊 Datasets
+*[To be specified based on chosen dataset]*
+
 Convolutional Neural Networks for Face and Object Detection
 
 ## Project Organization
@@ -59,3 +88,8 @@ Convolutional Neural Networks for Face and Object Detection
 
 --------
 
+## 🤝 Contributing
+This is a learning project, but feedback and suggestions are welcome!
+
+---
+*Built with ❤️ for learning CNNs*
