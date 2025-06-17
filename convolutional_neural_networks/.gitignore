@@ -1,6 +1,24 @@
 # Data
 /data/
 
+# Machine Learning Models (add this section)
+*.pth
+*.pkl
+*.h5
+*.ckpt
+*.model
+*.weights
+
+# Generated plots and figures
+*.png
+*.jpg
+*.jpeg
+/reports/figures/
+
+# Model comparison results
+reproducible_model_comparison.json
+*_experiment_log.json
+
 # Mac OS-specific storage files
 .DS_Store
 
